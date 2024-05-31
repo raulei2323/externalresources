@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario (toodocodevid02formularios)</title>
+
+</head>
+<body>
+
+    <h1>Formulario</h1>
+
+    <form action="./otrohtml.html" method="post">
+        <p><label for="nombre">Nombre:<input type="text" id="nombre"></label></p>
+        <p><label for="apellido">Apellido: <input type="text" id="apellido"></label></p>
+        <p><label for="edad"> Edad: <input type="text" id="edad"></label></p>
+        <p><label for="observaciones">Observaciones: <textarea id="observaciones" cols="20" rows="2"></textarea></label></p>
+<!-- ?formulario con area de escritura    -->
+        <p><label>Estatura:
+            <select id="estaura">
+                <option value="<1,50" disabled>menos de 1,50 mts</option>
+                <option value="1,51 a 1,60"> de 1,51 a 1,60 mts</option>
+                <option value="1,61 a 1,70">de 1,61 a 1,70 mts</option>
+                <option value="1,70 a 1,80">de 1,70 a 1,80 mts</option>
+                <option value="> 1,180">mas de 1,80 mts</option>
+            </select>
+        </label></p>
+        <!-- ? select option o selector de opciones la primera opcion esta deshabilitada -->
+        
+
+        <p><b>Color de ojos</b></p>
+        <input type="radio" value="marron" checked>
+        <label>Marrón</label>
+        <input type="checkbox" value="azules">
+        <label>Azules</label>
+        <input type="checkbox" value="verdes">
+        <label>Verdes</label>
+        <input type="checkbox" value="otro">
+        <label>Otro</label>
+        <!-- ?checkbox el primero es tipo circular y con checked se puede poner por defecto ya seleccionado y ademas no se puede quitar la seleccion -->
+
+
+       <button type="submit">Enviar</button>
+
+
+    </form>
+
+
+    
+</body>
+</html>
